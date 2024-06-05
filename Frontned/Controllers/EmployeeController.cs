@@ -14,7 +14,7 @@ namespace Frontned.Controllers
 {
     public class EmployeeController : Controller
     {
-        string BaseUrl = "https://localhost:7086";
+        string BaseUrl = "http://ec2-13-60-21-217.eu-north-1.compute.amazonaws.com:8080/";
         // GET: Employee
         public async Task<ActionResult> Index()
         {
