@@ -183,7 +183,7 @@ namespace Frontned.Controllers
             return View(employee);
         }
 
-        // POST: Employee/Delete/5
+        //  POST: Employee/Delete/5 
         [HttpPost]
         public async Task<ActionResult> Delete(int id, FormCollection collection)
         {
